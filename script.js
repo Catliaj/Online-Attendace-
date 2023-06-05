@@ -8,7 +8,7 @@ function authenticate(event) {
     // Check if the username and password are correct
     if (username === 'ict-sevilla 2022-2023' && password === '2022-2023') {
       // Redirect the user to the website
-      window.location.href = 'C:\Users\Welcome2022\Desktop\2 weeks coding\Home\home.html';
+      window.location.href = 'home.html';
     } else {
       // Display an error message
       alert('Invalid username or password');
